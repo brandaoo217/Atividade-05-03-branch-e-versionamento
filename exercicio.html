@@ -8,8 +8,8 @@
         /* CSS BASE - ESTE É O BLOCO QUE ELES VÃO ALTERAR NA BRANCH */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f2f5; /* Cor para alterar no modo noturno */
-            color: #333;               /* Cor para alterar no modo noturno */
+            background-color: #055ff1; /* Cor para alterar no modo noturno */
+            color: #6b6b6b;               /* Cor para alterar no modo noturno */
             margin: 0;
             display: flex;
             justify-content: center;
@@ -17,8 +17,8 @@
             height: 100vh;
         }
 
-        .dashboard-container {
-            background-color: white; /* Cor para alterar no modo noturno */
+        .dashboard-container {  
+            background-color: rgb(127, 0, 254); /* Cor para alterar no modo noturno */
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.1);
@@ -48,27 +48,28 @@
             font-size: 24px;
             font-weight: bold;
             display: block;
+            color:rgb(0, 0, 0)
         }
 
         .card-label {
             font-size: 14px;
-            color: #666;
+            color: black;
         }
     </style>
 </head>
 <body>
 
     <div class="dashboard-container">
-        <h1>Dashboard Analítico</h1>
+        <h1>Dashboard de Análise</h1>
         
         <div class="metrics-grid">
             <div class="card">
                 <span class="card-value">94.2%</span>
-                <span class="card-label">Acurácia</span>
+                <span class="card-label">Porcentagem de acerto</span>
             </div>
             <div class="card">
                 <span class="card-value">1.2s</span>
-                <span class="card-label">Latência</span>
+                <span class="card-label">Ping</span>
             </div>
         </div>
 
